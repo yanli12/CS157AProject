@@ -1,8 +1,5 @@
 USE CS157A;
 
-TRUNCATE TABLE user;
-TRUNCATE TABLE library;
-
 INSERT INTO user (user_id, fname, lname, pwd, email, street, city, zipcode, age, isAdmin)
 VALUES 
 ('123456789', 'Yanping', 'Li', '123', 'yl@gmail.com', '1 Main St', 'San Jose', '95116', '18', '1'),
